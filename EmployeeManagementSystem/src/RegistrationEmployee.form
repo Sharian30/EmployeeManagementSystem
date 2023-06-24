@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegistrationEmployee">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="526"/>
+    </constraints>
+    <properties>
+      <background color="-206992"/>
+      <font name="Cambria" size="16" style="1"/>
+      <foreground color="-15855341"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3fdb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <icon value="new.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cb67f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="48" style="1"/>
+          <text value="Registration"/>
+        </properties>
+      </component>
+      <component id="255b4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="13078" class="javax.swing.JTextField" binding="tfName">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="16" style="1"/>
+          <foreground color="-15855341"/>
+        </properties>
+      </component>
+      <component id="569ad" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="a09" class="javax.swing.JTextField" binding="tfAddress">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="16" style="1"/>
+          <foreground color="-15855341"/>
+        </properties>
+      </component>
+      <component id="cd84" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <labelFor value="38dcd"/>
+          <text value="Department"/>
+        </properties>
+      </component>
+      <component id="38dcd" class="javax.swing.JTextField" binding="tfDepartment">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="16" style="1"/>
+          <foreground color="-15855341"/>
+        </properties>
+      </component>
+      <component id="25d1e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Phone"/>
+        </properties>
+      </component>
+      <component id="a50c8" class="javax.swing.JTextField" binding="tfPhone">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="16" style="1"/>
+          <foreground color="-15855341"/>
+        </properties>
+      </component>
+      <component id="1e47c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="f579b" class="javax.swing.JTextField" binding="tfEmail">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="16" style="1"/>
+          <foreground color="-15855341"/>
+        </properties>
+      </component>
+      <component id="cb5c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="9e393" class="javax.swing.JPasswordField" binding="pfPassword">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="16" style="1"/>
+          <foreground color="-15855341"/>
+        </properties>
+      </component>
+      <component id="9db70" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="ff200" class="javax.swing.JPasswordField" binding="pfConfirmPassword">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="16" style="1"/>
+          <foreground color="-15855341"/>
+        </properties>
+      </component>
+      <vspacer id="d0c18">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c30cf" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-61679"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <vspacer id="9a423">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="cf7cd">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3c805">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="72c45">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c9826" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-855310"/>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-15532281"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="62c4a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Salary"/>
+        </properties>
+      </component>
+      <component id="6efb4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16685081"/>
+          <text value="Blood Group"/>
+        </properties>
+      </component>
+      <component id="c2c71" class="javax.swing.JTextField" binding="tfSalary">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="ba339" class="javax.swing.JTextField" binding="tfBlood">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="19" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
